@@ -1,0 +1,2 @@
+defmodule ClusterHcloud do
+end
