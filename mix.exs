@@ -33,9 +33,9 @@ defmodule ClusterHcloud.MixProject do
 
   defp deps do
     [
-      {:libcluster, "~> 3.2.1"},
-      {:httpoison, "~> 1.7"},
-      {:jason, "~> 1.2"},
+      {:libcluster, "~> 3.3"},
+      {:httpoison, "~> 2.2"},
+      {:jason, "~> 1.4"},
       {:ex_doc, "~> 0.22", only: :dev}
     ]
   end
