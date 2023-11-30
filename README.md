@@ -36,7 +36,7 @@ the Erlang start parameter `--name {app_prefix}@{private_ip}` or `--name
 {app_prefix}@{public_ip}`! If you are using Mix Releases, the [documentation of
 mix-release](https://hexdocs.pm/mix/Mix.Tasks.Release.html) is a good read.
 
-TL;DR e.g. for use with **mix release** you need to set the environment variables `RELEASE_DISTRIBUTION=name` and `RELEASE_NAME={app_prefix}@{private_ip|public_ip}` when running you release.
+TL;DR e.g. for use with **mix release** you need to set the environment variables `RELEASE_DISTRIBUTION=name` and `RELEASE_NODE={app_prefix}@{private_ip|public_ip}` when running you release.
 
 
 ## Installation
