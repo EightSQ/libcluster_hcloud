@@ -8,7 +8,7 @@ defmodule ClusterHcloud.MixProject do
     [
       app: :libcluster_hcloud,
       version: @version,
-      elixir: "~> 1.8",
+      elixir: "~> 1.11",
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
       deps: deps(),
